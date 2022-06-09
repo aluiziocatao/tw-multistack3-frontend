@@ -13,13 +13,7 @@ export default function CabecalhoAdmin(){
                     </Link>
                     <Link component={NextLink} href={'/pets/relatorio'}>
                         <a>
-                            Relatório 
-                            <Box 
-                                component={'span'} 
-                                sx={{ display: { sm: 'initial', xs: 'none'} }}
-                            >
-                                de Adoção
-                            </Box>
+                            Relatório <Box component={'span'} sx={{ display: { sm: 'initial', xs: 'none'} }}> de Adoção</Box>
                         </a>
                     </Link>
                 </LinksContainer>
